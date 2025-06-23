@@ -98,5 +98,7 @@ function showPage(id) {
     target.style.display = 'block';} // show the target section
   }
 }
-const img=document.querySelector('.img-box img');
-console.log(img)
+document.querySelector('.small-header button').addEventListener('click', () => {
+  const menu = document.querySelector('.menu-items');
+  menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+});
