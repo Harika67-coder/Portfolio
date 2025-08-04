@@ -373,12 +373,7 @@ h4{
   font-family: Snell Roundhand, cursive;
   
 }
-#skills span{
-  padding:10px;
-  background: linear-gradient(150deg, #ff00cc, #00ffee);;
-  border-radius: 50%;
-  color:white
-}
+
 .skill{
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -644,7 +639,12 @@ margin-bottom: 30px;
     height: auto;
   }
 }
-
+#skills span{
+  width:fit-content;
+  height:20px;
+  padding:8px;
+  border:2px solid grey;
+}
 #education,#skills,#certificates,#work,#projects,#contact{
   display:none;
 }
