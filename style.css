@@ -12,7 +12,7 @@ h1{
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   
-font-family:Brush Script MT, Brush Script Std, cursive;
+font-family:Brush Script MT, Brush Script Std;
 }
     .ball {
       position: absolute;
@@ -223,7 +223,7 @@ transition:transform 2s ease-in-out;
   z-index: -1;
 }
 button{
-  font-family: Snell Roundhand, cursive;
+  font-family: Snell Roundhand;
 }
 .home {
   display: flex;
@@ -242,17 +242,17 @@ h1{
   color:#8f8b8d;
   margin:0;
   padding: 0;
-  font-family: Snell Roundhand, cursive;;
+  font-family: Snell Roundhand;
 }
 .interest{
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: Brush Script MT, Brush Script Std;
   font-weight: 400;
   font-size:30px;
   margin:0;
   padding: 5px;
 }
 h3{
-  font-family: Snell Roundhand, cursive;;
+  font-family: Snell Roundhand;
   color:#8f8b8d;
 }
 .buttons{
@@ -370,7 +370,7 @@ h4{
   
 }
 #skills h2{
-  font-family: Snell Roundhand, cursive;
+  font-family: Snell Roundhand;
   
 }
 
